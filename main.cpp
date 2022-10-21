@@ -4,15 +4,15 @@ using namespace std;
 
 const string rejectedMessage = "Anda tidak lolos seleksi beasiswa IOM";
 
-void tugas(), uas();
+void tugas(), quiz();
 
 int main() {
     tugas(); // use this for run tugas function
-    uas(); //use this for run uas function
+    quiz(); //use this for run quiz function
     return 0;
 }
 
-void uas() {
+void quiz() {
     string npm, name, prodi, predicate = "Unidentified";
     int timeToComplete, totalD;
     float ipk;
